@@ -52,14 +52,18 @@ InboxSage
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/inboxsage-ai.git
-cd inboxsage-ai
+git clone https://github.com/AnushaMahesh29/AI-Email-Automation.git
+cd AI-Email-Automation
 ````
 
 ### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
+```
+cohere
+requests
+pandas
+google-api-python-client
+google-auth
+google-auth-oauthlib
 ```
 
 ### 3. Setup environment
