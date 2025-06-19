@@ -1,26 +1,26 @@
 
 
-# 📬 InboxSage AI - Email Auto-Responder & Spam Filter
+#  InboxSage AI - Email Auto-Responder & Spam Filter
 
 InboxSage AI is a Python-based email support automation tool that reads unread Gmail messages, filters spam, classifies legitimate emails, and sends intelligent replies — all automatically. It's built with customer support in mind, reducing manual workload while maintaining professionalism.
 
 
-## ✨ Features
+##  Features
 
-- ✅ Automatically fetches unread emails
-- 🚫 Filters spam using rules + AI (Cohere LLM)
-- 🧠 Classifies messages into:
+-  Automatically fetches unread emails
+-  Filters spam using rules + AI (Cohere LLM)
+-  Classifies messages into:
   - Complaint
   - Feedback
   - Product/Service Question
   - Other
-- 🤖 Generates polite, context-aware replies
-- 📊 Logs every response with category & timestamp
-- 🔁 Skips replies if already responded twice
+-  Generates polite, context-aware replies
+-  Logs every response with category & timestamp
+-  Skips replies if already responded twice
 
 
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python**
 - **Gmail API**
@@ -30,7 +30,7 @@ InboxSage AI is a Python-based email support automation tool that reads unread G
 
 
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 InboxSage
@@ -47,7 +47,7 @@ InboxSage
 ````
 
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -86,7 +86,7 @@ InboxSage will check every 10 seconds, filter spam, respond to emails, and log e
 
 ---
 
-## 📒 Example
+##  Example
 
 **Incoming Email:**
 
@@ -103,7 +103,7 @@ InboxSage will check every 10 seconds, filter spam, respond to emails, and log e
 
 ---
 
-## 📌 Notes
+##  Notes
 
 * Automatically avoids replying more than twice to the same thread.
 * Spam detection uses both simple keyword rules and LLM-based reasoning.
